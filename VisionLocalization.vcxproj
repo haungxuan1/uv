@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{4EF90D92-B7AF-4532-BDC5-972CF770958B}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>VisionLocalization</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\ImControl;$(SolutionDir)\Clock;$(SolutionDir)\Log;$(SolutionDir)\Camera;$(SolutionDir)\GDI;$(SolutionDir)\Local Setting;$(SolutionDir)\GDI+;$(SolutionDir)\ThreadParam;$(SolutionDir)\Printer;$(SolutionDir)\Calibrator;$(SolutionDir)\TempMatch;$(SolutionDir)\Temp Control;$(SolutionDir)\MainDlg;$(SolutionDir)\3rdparty;$(SolutionDir)\3rdparty\DVP2;$(SolutionDir)\3rdparty\libtiff;$(SolutionDir)\3rdparty\OpenCV470;$(SolutionDir)\3rdparty\OpenCV470\opencv2;$(SolutionDir)\3rdparty\log4cplus210;$(SolutionDir)\3rdparty\DALSA\Basic;$(SolutionDir)\3rdparty\DALSA\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)\3rdparty_lib_d</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DVPCamera64.lib;tiffd.lib;opencv_world470d.lib;log4cplusUD.lib;Helper.lib;SapClassBasic_64.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\Calibrator;$(SolutionDir)\ImControl;$(SolutionDir)\Clock;$(SolutionDir)\Log;$(SolutionDir)\Camera;$(SolutionDir)\GDI;$(SolutionDir)\Local Setting;$(SolutionDir)\GDI+;$(SolutionDir)\ThreadParam;$(SolutionDir)\Printer;$(SolutionDir)\TempMatch;$(SolutionDir)\Temp Control;$(SolutionDir)\MainDlg;$(SolutionDir)\3rdparty;$(SolutionDir)\3rdparty\DVP2;$(SolutionDir)\3rdparty\libtiff;$(SolutionDir)\3rdparty\OpenCV470;$(SolutionDir)\3rdparty\OpenCV470\opencv2;$(SolutionDir)\3rdparty\log4cplus210;$(SolutionDir)\3rdparty\DALSA\Basic;$(SolutionDir)\3rdparty\DALSA\Include</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)\3rdparty_lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DVPCamera64.lib;tiff.lib;opencv_world470.lib;log4cplusU.lib;Helper.lib;SapClassBasic_64.lib;Filer.lib;</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Calibrator\AlignDlg.h" />
+    <ClInclude Include="Calibrator\CalibratorDlg.h" />
+    <ClInclude Include="Calibrator\CameraDlg.h" />
+    <ClInclude Include="Calibrator\CameraParam.h" />
+    <ClInclude Include="Calibrator\ChartDlg.h" />
+    <ClInclude Include="Calibrator\DPIDlg.h" />
+    <ClInclude Include="Calibrator\ForegroundDlg.h" />
+    <ClInclude Include="Calibrator\HomographyDlg.h" />
+    <ClInclude Include="Calibrator\Im2Mat.h" />
+    <ClInclude Include="Calibrator\ImPadding.h" />
+    <ClInclude Include="Calibrator\Merge2Dlg.h" />
+    <ClInclude Include="Calibrator\MergeDlg.h" />
+    <ClInclude Include="Calibrator\PrespectiveDlg.h" />
+    <ClInclude Include="Calibrator\QEncodeDlg.h" />
+    <ClInclude Include="Calibrator\ReferenceDlg.h" />
+    <ClInclude Include="Calibrator\ROIDlg.h" />
+    <ClInclude Include="Calibrator\ThAligning.h" />
+    <ClInclude Include="Calibrator\ThDPI.h" />
+    <ClInclude Include="Calibrator\ThForeground.h" />
+    <ClInclude Include="Calibrator\ThMerging.h" />
+    <ClInclude Include="Calibrator\ThHomography.h" />
+    <ClInclude Include="Calibrator\ThMergingEx.h" />
+    <ClInclude Include="Calibrator\ThPerspective.h" />
+    <ClInclude Include="Calibrator\ThReference.h" />
+    <ClInclude Include="Calibrator\ThROI.h" />
+    <ClInclude Include="Calibrator\ThSlope.h" />
+    <ClInclude Include="Camera\Camera.h" />
+    <ClInclude Include="Camera\DALSACamera.h" />
+    <ClInclude Include="Camera\DALSACameraHPD.h" />
+    <ClInclude Include="Camera\DALSACapture.h" />
+    <ClInclude Include="Camera\XLPCamera.h" />
+    <ClInclude Include="ChartCtrl\ChartAxis.h" />
+    <ClInclude Include="ChartCtrl\ChartAxisLabel.h" />
+    <ClInclude Include="ChartCtrl\ChartBalloonLabel.h" />
+    <ClInclude Include="ChartCtrl\ChartBarSerie.h" />
+    <ClInclude Include="ChartCtrl\ChartCandlestickSerie.h" />
+    <ClInclude Include="ChartCtrl\ChartCrossHairCursor.h" />
+    <ClInclude Include="ChartCtrl\ChartCtrl.h" />
+    <ClInclude Include="ChartCtrl\ChartCursor.h" />
+    <ClInclude Include="ChartCtrl\ChartDateTimeAxis.h" />
+    <ClInclude Include="ChartCtrl\ChartDragLineCursor.h" />
+    <ClInclude Include="ChartCtrl\ChartFont.h" />
+    <ClInclude Include="ChartCtrl\ChartGanttSerie.h" />
+    <ClInclude Include="ChartCtrl\ChartGradient.h" />
+    <ClInclude Include="ChartCtrl\ChartGrid.h" />
+    <ClInclude Include="ChartCtrl\ChartLabel.hxx" />
+    <ClInclude Include="ChartCtrl\ChartLegend.h" />
+    <ClInclude Include="ChartCtrl\ChartLineSerie.h" />
+    <ClInclude Include="ChartCtrl\ChartLogarithmicAxis.h" />
+    <ClInclude Include="ChartCtrl\ChartMouseListener.h" />
+    <ClInclude Include="ChartCtrl\ChartPointsArray.h" />
+    <ClInclude Include="ChartCtrl\ChartPointsSerie.h" />
+    <ClInclude Include="ChartCtrl\ChartScrollBar.h" />
+    <ClInclude Include="ChartCtrl\ChartSerie.h" />
+    <ClInclude Include="ChartCtrl\ChartSerieBase.h" />
+    <ClInclude Include="ChartCtrl\ChartSeriesMouseListener.h" />
+    <ClInclude Include="ChartCtrl\ChartStandardAxis.h" />
+    <ClInclude Include="ChartCtrl\ChartString.h" />
+    <ClInclude Include="ChartCtrl\ChartSurfaceSerie.h" />
+    <ClInclude Include="ChartCtrl\ChartTitle.h" />
+    <ClInclude Include="ChartCtrl\ChartXYSerie.h" />
+    <ClInclude Include="ChartCtrl\PointsOrdering.h" />
+    <ClInclude Include="CheckCombobox\CheckComboBox.h" />
+    <ClInclude Include="cJSON.h" />
+    <ClInclude Include="ConfigFile\ConfigFile.h" />
+    <ClInclude Include="ConfigFile\ConFileMgr.h" />
+    <ClInclude Include="ConfigFile\md5.h" />
+    <ClInclude Include="Control\StyleButton.h" />
+    <ClInclude Include="Control\StyleDialog.h" />
+    <ClInclude Include="Control\VideoImageStatic.h" />
+    <ClInclude Include="CScreenShotDlg.h" />
+    <ClInclude Include="def.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="GDI+\CGDIPlusDlg.h" />
+    <ClInclude Include="GDI\GDIDBuffer.h" />
+    <ClInclude Include="ImControl\CImCtrl.h" />
+    <ClInclude Include="ImControl\CImParam.h" />
+    <ClInclude Include="ImControl\ImLayer2.h" />
+    <ClInclude Include="ImControl\ImLayerInfo.h" />
+    <ClInclude Include="ImControl\ImLayers.h" />
+    <ClInclude Include="ImControl\ImParam2.h" />
+    <ClInclude Include="ImControl\CImView.h" />
+    <ClInclude Include="ImControl\DrawPng.h" />
+    <ClInclude Include="ImControl\ImCenter.h" />
+    <ClInclude Include="ImControl\ImControl.h" />
+    <ClInclude Include="ImControl\ImControl2.h" />
+    <ClInclude Include="ImControl\ImLayer.h" />
+    <ClInclude Include="ImControl\ImPtr.h" />
+    <ClInclude Include="ImControl\ImRender.h" />
+    <ClInclude Include="ImControl\ImScrollbar.h" />
+    <ClInclude Include="ImControl\ImImage.h" />
+    <ClInclude Include="ImControl\ImThCenter.h" />
+    <ClInclude Include="ImControl\ImView2.h" />
+    <ClInclude Include="Local Setting\PQMsg.h" />
+    <ClInclude Include="Local Setting\PQSetting.h" />
+    <ClInclude Include="Local Setting\Transform.h" />
+    <ClInclude Include="Log\Log.h" />
+    <ClInclude Include="MainDlg\CameraParamDlg.h" />
+    <ClInclude Include="MainDlg\DALSADlg.h" />
+    <ClInclude Include="MainDlg\FleeceDlg.h" />
+    <ClInclude Include="MainDlg\ImThread.h" />
+    <ClInclude Include="MainDlg\MatchTh.h" />
+    <ClInclude Include="MainDlg\StOverlap.h" />
+    <ClInclude Include="MainDlg\VisionLocalizationDlg.h" />
+    <ClInclude Include="MakeTemplateDialog.h" />
+    <ClInclude Include="MatchTestViewDlg.h" />
+    <ClInclude Include="ParamSetDialog.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PrClock\PrClock.h" />
+    <ClInclude Include="Printer\CameraDPIAlignment.h" />
+    <ClInclude Include="Printer\Fleece.h" />
+    <ClInclude Include="Printer\ImRotate.h" />
+    <ClInclude Include="Printer\PrinterDPIAlignment.h" />
+    <ClInclude Include="Printer\ImageLine.h" />
+    <ClInclude Include="Printer\ImageMosaic.h" />
+    <ClInclude Include="Printer\Homography.h" />
+    <ClInclude Include="Printer\ImScan.h" />
+    <ClInclude Include="Printer\Mat2Prt.h" />
+    <ClInclude Include="Printer\Position.h" />
+    <ClInclude Include="Printer\PQPrinter.h" />
+    <ClInclude Include="Printer\PrinterBase.h" />
+    <ClInclude Include="Printer\PrinterInit.h" />
+    <ClInclude Include="Printer\PrtMatrix.h" />
+    <ClInclude Include="Printer\PrtTCP.h" />
+    <ClInclude Include="Printer\ImTransparent.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StepDialog.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TempMatch\MatrixOverlap.h" />
+    <ClInclude Include="TempMatch\Mold.h" />
+    <ClInclude Include="TempMatch\MoldDlg.h" />
+    <ClInclude Include="TempMatch\StMatch.h" />
+    <ClInclude Include="TempMatch\StMatchEx.h" />
+    <ClInclude Include="TempMatch\StMold.h" />
+    <ClInclude Include="TempMatch\StMoldEx.h" />
+    <ClInclude Include="TempMatch\TempDlg.h" />
+    <ClInclude Include="TempMatch\TempDlgEx.h" />
+    <ClInclude Include="Temp\FeatureTh.h" />
+    <ClInclude Include="Temp\MakeTemplateDialog.h" />
+    <ClInclude Include="Temp\MakeTemplateMaskDialog.h" />
+    <ClInclude Include="Temp\MakeTemplateView.h" />
+    <ClInclude Include="Temp\TemplateManager.h" />
+    <ClInclude Include="Temp\TemplateManagerDlg.h" />
+    <ClInclude Include="ThreadParam\Condition.h" />
+    <ClInclude Include="ThreadParam\SRWLock.h" />
+    <ClInclude Include="ThreadParam\ThreadPtr.h" />
+    <ClInclude Include="ThreadParam\ThreadPtr.hpp" />
+    <ClInclude Include="utils\FileUtil.h" />
+    <ClInclude Include="utils\IniUtil.h" />
+    <ClInclude Include="utils\JsonUtil.h" />
+    <ClInclude Include="utils\OpenCvUtil.h" />
+    <ClInclude Include="utils\TiffUtil.h" />
+    <ClInclude Include="utils\WinUtil.h" />
+    <ClInclude Include="VisionLocalization.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Calibrator\AlignDlg.cpp" />
+    <ClCompile Include="Calibrator\CalibratorDlg.cpp" />
+    <ClCompile Include="Calibrator\CameraDlg.cpp" />
+    <ClCompile Include="Calibrator\ChartDlg.cpp" />
+    <ClCompile Include="Calibrator\DPIDlg.cpp" />
+    <ClCompile Include="Calibrator\ForegroundDlg.cpp" />
+    <ClCompile Include="Calibrator\HomographyDlg.cpp" />
+    <ClCompile Include="Calibrator\Im2Mat.cpp" />
+    <ClCompile Include="Calibrator\ImPadding.cpp" />
+    <ClCompile Include="Calibrator\Merge2Dlg.cpp" />
+    <ClCompile Include="Calibrator\MergeDlg.cpp" />
+    <ClCompile Include="Calibrator\PrespectiveDlg.cpp" />
+    <ClCompile Include="Calibrator\QEncodeDlg.cpp" />
+    <ClCompile Include="Calibrator\ReferenceDlg.cpp" />
+    <ClCompile Include="Calibrator\ROIDlg.cpp" />
+    <ClCompile Include="Calibrator\ThAligning.cpp" />
+    <ClCompile Include="Calibrator\ThDPI.cpp" />
+    <ClCompile Include="Calibrator\ThForeground.cpp" />
+    <ClCompile Include="Calibrator\ThMerging.cpp" />
+    <ClCompile Include="Calibrator\ThHomography.cpp" />
+    <ClCompile Include="Calibrator\ThMergingEx.cpp" />
+    <ClCompile Include="Calibrator\ThPerspective.cpp" />
+    <ClCompile Include="Calibrator\ThReference.cpp" />
+    <ClCompile Include="Calibrator\ThROI.cpp" />
+    <ClCompile Include="Calibrator\ThSlope.cpp" />
+    <ClCompile Include="Camera\Camera.cpp" />
+    <ClCompile Include="Camera\DALSACamera.cpp" />
+    <ClCompile Include="Camera\DALSACameraHPD.cpp" />
+    <ClCompile Include="Camera\DALSACapture.cpp" />
+    <ClCompile Include="Camera\XLPCamera.cpp" />
+    <ClCompile Include="Camera\XLPCameraHPD.cpp" />
+    <ClCompile Include="Camera\XLPCapture.cpp" />
+    <ClCompile Include="ChartCtrl\ChartAxis.cpp" />
+    <ClCompile Include="ChartCtrl\ChartAxisLabel.cpp" />
+    <ClCompile Include="ChartCtrl\ChartBarSerie.cpp" />
+    <ClCompile Include="ChartCtrl\ChartCandlestickSerie.cpp" />
+    <ClCompile Include="ChartCtrl\ChartCrossHairCursor.cpp" />
+    <ClCompile Include="ChartCtrl\ChartCtrl.cpp" />
+    <ClCompile Include="ChartCtrl\ChartCursor.cpp" />
+    <ClCompile Include="ChartCtrl\ChartDateTimeAxis.cpp" />
+    <ClCompile Include="ChartCtrl\ChartDragLineCursor.cpp" />
+    <ClCompile Include="ChartCtrl\ChartFont.cpp" />
+    <ClCompile Include="ChartCtrl\ChartGanttSerie.cpp" />
+    <ClCompile Include="ChartCtrl\ChartGradient.cpp" />
+    <ClCompile Include="ChartCtrl\ChartGrid.cpp" />
+    <ClCompile Include="ChartCtrl\ChartLegend.cpp" />
+    <ClCompile Include="ChartCtrl\ChartLineSerie.cpp" />
+    <ClCompile Include="ChartCtrl\ChartLogarithmicAxis.cpp" />
+    <ClCompile Include="ChartCtrl\ChartPointsSerie.cpp" />
+    <ClCompile Include="ChartCtrl\ChartScrollBar.cpp" />
+    <ClCompile Include="ChartCtrl\ChartSerie.cpp" />
+    <ClCompile Include="ChartCtrl\ChartStandardAxis.cpp" />
+    <ClCompile Include="ChartCtrl\ChartSurfaceSerie.cpp" />
+    <ClCompile Include="ChartCtrl\ChartTitle.cpp" />
+    <ClCompile Include="ChartCtrl\ChartXYSerie.cpp" />
+    <ClCompile Include="CheckCombobox\CheckComboBox.cpp" />
+    <ClCompile Include="cJSON.cpp" />
+    <ClCompile Include="ConfigFile\ConFileMgr.cpp" />
+    <ClCompile Include="ConfigFile\md5.cpp" />
+    <ClCompile Include="Control\StyleButton.cpp" />
+    <ClCompile Include="Control\StyleDialog.cpp" />
+    <ClCompile Include="Control\VideoImageStatic.cpp" />
+    <ClCompile Include="CScreenShotDlg.cpp" />
+    <ClCompile Include="GDI+\CGDIPlusDlg.cpp" />
+    <ClCompile Include="GDI\GDIDBuffer.cpp" />
+    <ClCompile Include="ImControl\CImCtrl.cpp" />
+    <ClCompile Include="ImControl\CImParam.cpp" />
+    <ClCompile Include="ImControl\ImLayer2.cpp" />
+    <ClCompile Include="ImControl\ImLayerInfo.cpp" />
+    <ClCompile Include="ImControl\ImLayers.cpp" />
+    <ClCompile Include="ImControl\ImParam2.cpp" />
+    <ClCompile Include="ImControl\CImView.cpp" />
+    <ClCompile Include="ImControl\DrawPng.cpp" />
+    <ClCompile Include="ImControl\ImCenter.cpp" />
+    <ClCompile Include="ImControl\ImControl.cpp" />
+    <ClCompile Include="ImControl\ImControl2.cpp" />
+    <ClCompile Include="ImControl\ImLayer.cpp" />
+    <ClCompile Include="ImControl\ImPtr.cpp" />
+    <ClCompile Include="ImControl\ImRender.cpp" />
+    <ClCompile Include="ImControl\ImScrollbar.cpp" />
+    <ClCompile Include="ImControl\ImImage.cpp" />
+    <ClCompile Include="ImControl\ImThCenter.cpp" />
+    <ClCompile Include="ImControl\ImView2.cpp" />
+    <ClCompile Include="Local Setting\Dir.cpp" />
+    <ClCompile Include="Local Setting\PQSetting.cpp" />
+    <ClCompile Include="Local Setting\Tif2Mat.cpp" />
+    <ClCompile Include="Local Setting\Transform.cpp" />
+    <ClCompile Include="Log\Log.cpp" />
+    <ClCompile Include="MainDlg\CameraParamDlg.cpp" />
+    <ClCompile Include="MainDlg\DALSADlg.cpp" />
+    <ClCompile Include="MainDlg\FleeceDlg.cpp" />
+    <ClCompile Include="MainDlg\ImThread.cpp" />
+    <ClCompile Include="MainDlg\MatchTh.cpp" />
+    <ClCompile Include="MainDlg\StOverlap.cpp" />
+    <ClCompile Include="MainDlg\VisionLocalizationDlg.cpp" />
+    <ClCompile Include="MatchTestViewDlg.cpp" />
+    <ClCompile Include="ParamSetDialog.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PrClock\PrClock.cpp" />
+    <ClCompile Include="Printer\CameraDPIAlignment.cpp" />
+    <ClCompile Include="Printer\Fleece.cpp" />
+    <ClCompile Include="Printer\ImRotate.cpp" />
+    <ClCompile Include="Printer\PrinterDPIAlignment.cpp" />
+    <ClCompile Include="Printer\ImageLine.cpp" />
+    <ClCompile Include="Printer\ImageMosaic.cpp" />
+    <ClCompile Include="Printer\Homography.cpp" />
+    <ClCompile Include="Printer\ImScan.cpp" />
+    <ClCompile Include="Printer\Mat2Prt.cpp" />
+    <ClCompile Include="Printer\Position.cpp" />
+    <ClCompile Include="Printer\PQPrinter.cpp" />
+    <ClCompile Include="Printer\PrinterBase.cpp" />
+    <ClCompile Include="Printer\PrinterInit.cpp" />
+    <ClCompile Include="Printer\PrtMatrix.cpp" />
+    <ClCompile Include="Printer\PrtTCP.cpp" />
+    <ClCompile Include="Printer\ImTransparent.cpp" />
+    <ClCompile Include="StepDialog.cpp" />
+    <ClCompile Include="TempMatch\MatrixOverlap.cpp" />
+    <ClCompile Include="TempMatch\Mold.cpp" />
+    <ClCompile Include="TempMatch\MoldDlg.cpp" />
+    <ClCompile Include="TempMatch\StMatch.cpp" />
+    <ClCompile Include="TempMatch\StMatchEx.cpp" />
+    <ClCompile Include="TempMatch\StMold.cpp" />
+    <ClCompile Include="TempMatch\StMoldEx.cpp" />
+    <ClCompile Include="TempMatch\TempDlg.cpp" />
+    <ClCompile Include="TempMatch\TempDlgEx.cpp" />
+    <ClCompile Include="Temp\FeatureTh.cpp" />
+    <ClCompile Include="Temp\MakeTemplateDialog.cpp" />
+    <ClCompile Include="Temp\MakeTemplateMaskDialog.cpp" />
+    <ClCompile Include="Temp\MakeTemplateView.cpp" />
+    <ClCompile Include="Temp\TemplateManager.cpp" />
+    <ClCompile Include="Temp\TemplateManagerDlg.cpp" />
+    <ClCompile Include="ThreadParam\Condition.cpp" />
+    <ClCompile Include="ThreadParam\SRWLock.cpp" />
+    <ClCompile Include="utils\FileUtil.cpp" />
+    <ClCompile Include="utils\IniUtil.cpp" />
+    <ClCompile Include="utils\JsonUtil.cpp" />
+    <ClCompile Include="utils\OpenCvUtil.cpp" />
+    <ClCompile Include="utils\TiffUtil.cpp" />
+    <ClCompile Include="utils\WinUtil.cpp" />
+    <ClCompile Include="VisionLocalization.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VisionLocalization.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ChartCtrl\ChartPointsArray.inl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="ChartCtrl\ChartSerieBase.inl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="res\cursor_rotate.cur" />
+    <None Include="res\rotating.cur" />
+    <None Include="res\VisionLocalization.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\add.ico" />
+    <Image Include="res\app.ico" />
+    <Image Include="res\calibration-btn.ico" />
+    <Image Include="res\collect-btn.ico" />
+    <Image Include="res\dlg.bmp" />
+    <Image Include="res\dlg.png" />
+    <Image Include="res\exit_foc.bmp" />
+    <Image Include="res\exit_nor.bmp" />
+    <Image Include="res\loading-btn.ico" />
+    <Image Include="res\max.ico" />
+    <Image Include="res\max_focu.bmp" />
+    <Image Include="res\max_norm.bmp" />
+    <Image Include="res\min_focu.bmp" />
+    <Image Include="res\min_norm.bmp" />
+    <Image Include="res\model-btn.ico" />
+    <Image Include="res\print-btn.ico" />
+    <Image Include="res\res_focu.bmp" />
+    <Image Include="res\res_norm.bmp" />
+    <Image Include="res\save-btn.ico" />
+    <Image Include="res\selcut.ico" />
+    <Image Include="res\setting-btn.ico" />
+    <Image Include="res\temp-btn.ico" />
+    <Image Include="res\VisionLocalization.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

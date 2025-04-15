@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="打印">
+      <UniqueIdentifier>{1784f335-5e7c-434a-b8e5-0e445a8d9ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\定位">
+      <UniqueIdentifier>{7003ea2d-bc90-4df3-abbf-64bad66609bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\TCP">
+      <UniqueIdentifier>{b6d4e91b-10b5-4a88-b625-aed99e41278b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\mat2prt">
+      <UniqueIdentifier>{ff53eb21-abb8-41e8-8f2a-ec92cc0f0115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="线程参数">
+      <UniqueIdentifier>{ccc23640-940d-45e0-a2f7-cea7269c51a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="本地设置">
+      <UniqueIdentifier>{cae18eaa-9c8a-4cf6-98f1-81e861f26050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="相机">
+      <UniqueIdentifier>{785ed8e2-eb58-4aec-98ca-2aade0761065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GDI">
+      <UniqueIdentifier>{caf05eb8-24fd-49ba-a88a-165832c72aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主窗口">
+      <UniqueIdentifier>{f3dae7be-c130-42f3-b288-45222880265a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模板匹配">
+      <UniqueIdentifier>{8f85035d-e7f3-4c9f-a12c-c7bc1b2e1718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模板匹配\模板制作">
+      <UniqueIdentifier>{6d76f8e3-e88e-4c13-9631-b3c284400491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模板匹配\模具原图">
+      <UniqueIdentifier>{aa634be8-2387-484f-9667-c237b6c7e71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模板匹配\匹配">
+      <UniqueIdentifier>{f859fdf8-551f-419d-be27-10dcecf3b2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GDI+">
+      <UniqueIdentifier>{df38076a-7496-42eb-98ff-84694669d354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="日志">
+      <UniqueIdentifier>{6882d236-328c-49fa-9867-e940a241c43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrClock">
+      <UniqueIdentifier>{3e5ef961-6105-415f-95a7-6f7e5bb7e995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\图像拼接">
+      <UniqueIdentifier>{02c9e797-a3d0-47e7-b816-e7cb1e7c2449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\Prt矩阵">
+      <UniqueIdentifier>{9ad97b3b-fb24-463f-b294-1443dce3886d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\图像行">
+      <UniqueIdentifier>{5ea4af1b-d818-445f-99ca-7fd2382d3eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="校准">
+      <UniqueIdentifier>{375e9581-afee-482a-a5e7-534d0c814e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChartCtrl">
+      <UniqueIdentifier>{b004c23c-6350-40cd-9f18-13e00b588167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChartCtrl\.h">
+      <UniqueIdentifier>{bd7c493f-caff-4632-915f-409aaac05e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChartCtrl\.cpp">
+      <UniqueIdentifier>{298655c3-7b38-44eb-87df-179ed7526db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheckCombobox">
+      <UniqueIdentifier>{04305d76-cb1a-4aa4-ba23-877cae77320b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\透传测试">
+      <UniqueIdentifier>{a9b596c5-86ed-46b2-b292-67651b5b236c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\图像扫描">
+      <UniqueIdentifier>{cb50dba5-8ccc-4f99-8e88-d2072c3d19bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="校准\校准线程">
+      <UniqueIdentifier>{bb11780f-5713-4318-82a9-6664177de2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConfigFile">
+      <UniqueIdentifier>{f2b07f15-7f0c-4ae4-b009-fe1f3c82b5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="相机\大恒-DALSA">
+      <UniqueIdentifier>{8e69095f-4308-489b-943c-c202b7febf39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="相机\度申">
+      <UniqueIdentifier>{6c0fa886-c444-490e-bbfc-f2f68f74a951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImControl">
+      <UniqueIdentifier>{18fce9f0-5d59-4b72-b0a0-44a2b9e44e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\相机DPI对齐">
+      <UniqueIdentifier>{9c5a79e4-33d7-4564-814d-1463db0fdd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\打印DPI对齐">
+      <UniqueIdentifier>{f618aa8c-2c89-4789-90b6-9b29b972e5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\单应性变换">
+      <UniqueIdentifier>{df876d79-5631-47cf-a192-020e7d87196d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\打印初始化">
+      <UniqueIdentifier>{1b540f42-a195-45a2-a27a-9f91a6060b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImControl2">
+      <UniqueIdentifier>{1140d237-4934-4793-9155-ecfcd380f077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模板制作">
+      <UniqueIdentifier>{33e6a11a-4353-4b06-b523-9097ccd179b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="打印\跳白">
+      <UniqueIdentifier>{3177cae5-a37c-4740-922d-ed670dbd14ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{d8c4c194-176c-46b2-bfbd-8e4468562098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{5646ddca-231b-460c-8b2b-abacb2c8f3ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VisionLocalization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadParam\Condition.h">
+      <Filter>线程参数</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadParam\SRWLock.h">
+      <Filter>线程参数</Filter>
+    </ClInclude>
+    <ClInclude Include="Local Setting\PQSetting.h">
+      <Filter>本地设置</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\PQPrinter.h">
+      <Filter>打印</Filter>
+    </ClInclude>
+    <ClInclude Include="GDI\GDIDBuffer.h">
+      <Filter>GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg\StOverlap.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg\VisionLocalizationDlg.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="GDI+\CGDIPlusDlg.h">
+      <Filter>GDI+</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMatch\TempDlg.h">
+      <Filter>模板匹配\模板制作</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMatch\TempDlgEx.h">
+      <Filter>模板匹配\模板制作</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMatch\StMold.h">
+      <Filter>模板匹配\模具原图</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMatch\StMoldEx.h">
+      <Filter>模板匹配\模具原图</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMatch\StMatch.h">
+      <Filter>模板匹配\匹配</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMatch\StMatchEx.h">
+      <Filter>模板匹配\匹配</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMatch\MatrixOverlap.h">
+      <Filter>模板匹配</Filter>
+    </ClInclude>
+    <ClInclude Include="Local Setting\Transform.h">
+      <Filter>本地设置</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Log.h">
+      <Filter>日志</Filter>
+    </ClInclude>
+    <ClInclude Include="PrClock\PrClock.h">
+      <Filter>PrClock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadParam\ThreadPtr.h">
+      <Filter>线程参数</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadParam\ThreadPtr.hpp">
+      <Filter>线程参数</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\PrtTCP.h">
+      <Filter>打印\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\Mat2Prt.h">
+      <Filter>打印\mat2prt</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\PrtMatrix.h">
+      <Filter>打印\Prt矩阵</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\Position.h">
+      <Filter>打印\定位</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\ImageMosaic.h">
+      <Filter>打印\图像拼接</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\ImageLine.h">
+      <Filter>打印\图像行</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\PrinterBase.h">
+      <Filter>打印</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMatch\Mold.h">
+      <Filter>模板匹配</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMatch\MoldDlg.h">
+      <Filter>模板匹配</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg\ImThread.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\CalibratorDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartAxis.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartAxisLabel.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartBalloonLabel.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartBarSerie.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCandlestickSerie.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCrossHairCursor.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCtrl.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCursor.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartDateTimeAxis.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartDragLineCursor.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartFont.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartGanttSerie.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartGradient.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartGrid.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLabel.hxx">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLegend.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLineSerie.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLogarithmicAxis.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartMouseListener.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartPointsArray.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartPointsSerie.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartScrollBar.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSerie.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSerieBase.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSeriesMouseListener.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartStandardAxis.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartString.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSurfaceSerie.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartTitle.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartXYSerie.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\PointsOrdering.h">
+      <Filter>ChartCtrl\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckCombobox\CheckComboBox.h">
+      <Filter>CheckCombobox</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\Homography.h">
+      <Filter>打印\单应性变换</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\ImTransparent.h">
+      <Filter>打印\透传测试</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\PrinterDPIAlignment.h">
+      <Filter>打印\打印DPI对齐</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\ImScan.h">
+      <Filter>打印\图像扫描</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThForeground.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThMerging.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThReference.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThROI.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThPerspective.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThHomography.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThDPI.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigFile\md5.h">
+      <Filter>ConfigFile</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigFile\ConfigFile.h">
+      <Filter>ConfigFile</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigFile\ConFileMgr.h">
+      <Filter>ConfigFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\DALSACamera.h">
+      <Filter>相机\大恒-DALSA</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\DALSACameraHPD.h">
+      <Filter>相机\大恒-DALSA</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\DALSACapture.h">
+      <Filter>相机\大恒-DALSA</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\XLPCamera.h">
+      <Filter>相机\度申</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg\DALSADlg.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThAligning.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\Im2Mat.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ImPadding.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThSlope.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\CameraDPIAlignment.h">
+      <Filter>打印\相机DPI对齐</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\PrinterInit.h">
+      <Filter>打印\打印初始化</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\CImCtrl.h">
+      <Filter>ImControl</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\CImParam.h">
+      <Filter>ImControl</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\CImView.h">
+      <Filter>ImControl</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\DrawPng.h">
+      <Filter>ImControl</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImControl.h">
+      <Filter>ImControl</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImLayer.h">
+      <Filter>ImControl</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImPtr.h">
+      <Filter>ImControl</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImScrollbar.h">
+      <Filter>ImControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Local Setting\PQMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg\MatchTh.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ThMergingEx.h">
+      <Filter>校准\校准线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>相机</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImCenter.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImControl2.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImParam2.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImLayer2.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImLayers.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImRender.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImImage.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImView2.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImLayerInfo.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg\CameraParamDlg.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\AlignDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\CameraDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ForegroundDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\MergeDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ReferenceDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ROIDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\PrespectiveDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\HomographyDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\Merge2Dlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\DPIDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\ChartDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="ImControl\ImThCenter.h">
+      <Filter>ImControl2</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\QEncodeDlg.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\ImRotate.h">
+      <Filter>打印\图像扫描</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator\CameraParam.h">
+      <Filter>校准</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp\FeatureTh.h">
+      <Filter>模板制作</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg\FleeceDlg.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer\Fleece.h">
+      <Filter>打印\跳白</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchTestViewDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\FileUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\IniUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\JsonUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\WinUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp\TemplateManager.h">
+      <Filter>模板制作</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp\TemplateManagerDlg.h">
+      <Filter>模板制作</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\VideoImageStatic.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamSetDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StepDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp\MakeTemplateMaskDialog.h">
+      <Filter>模板制作</Filter>
+    </ClInclude>
+    <ClInclude Include="CScreenShotDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeTemplateDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp\MakeTemplateDialog.h">
+      <Filter>模板制作</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\TiffUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\OpenCvUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp\MakeTemplateView.h">
+      <Filter>模板制作</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\StyleDialog.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\StyleButton.h">
+      <Filter>control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VisionLocalization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\Position.cpp">
+      <Filter>打印\定位</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadParam\Condition.cpp">
+      <Filter>线程参数</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadParam\SRWLock.cpp">
+      <Filter>线程参数</Filter>
+    </ClCompile>
+    <ClCompile Include="Local Setting\Dir.cpp">
+      <Filter>本地设置</Filter>
+    </ClCompile>
+    <ClCompile Include="Local Setting\PQSetting.cpp">
+      <Filter>本地设置</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\Mat2Prt.cpp">
+      <Filter>打印\mat2prt</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\PQPrinter.cpp">
+      <Filter>打印</Filter>
+    </ClCompile>
+    <ClCompile Include="GDI\GDIDBuffer.cpp">
+      <Filter>GDI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg\StOverlap.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg\VisionLocalizationDlg.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="GDI+\CGDIPlusDlg.cpp">
+      <Filter>GDI+</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMatch\TempDlg.cpp">
+      <Filter>模板匹配\模板制作</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMatch\TempDlgEx.cpp">
+      <Filter>模板匹配\模板制作</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMatch\StMold.cpp">
+      <Filter>模板匹配\模具原图</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMatch\StMoldEx.cpp">
+      <Filter>模板匹配\模具原图</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMatch\StMatch.cpp">
+      <Filter>模板匹配\匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMatch\StMatchEx.cpp">
+      <Filter>模板匹配\匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMatch\MatrixOverlap.cpp">
+      <Filter>模板匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="Local Setting\Transform.cpp">
+      <Filter>本地设置</Filter>
+    </ClCompile>
+    <ClCompile Include="Local Setting\Tif2Mat.cpp">
+      <Filter>本地设置</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\PrtTCP.cpp">
+      <Filter>打印\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Log.cpp">
+      <Filter>日志</Filter>
+    </ClCompile>
+    <ClCompile Include="PrClock\PrClock.cpp">
+      <Filter>PrClock</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\ImageMosaic.cpp">
+      <Filter>打印\图像拼接</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\PrtMatrix.cpp">
+      <Filter>打印\Prt矩阵</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\ImageLine.cpp">
+      <Filter>打印\图像行</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\PrinterBase.cpp">
+      <Filter>打印</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMatch\Mold.cpp">
+      <Filter>模板匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMatch\MoldDlg.cpp">
+      <Filter>模板匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg\ImThread.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\CalibratorDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartXYSerie.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartTitle.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartSurfaceSerie.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartStandardAxis.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartSerie.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartScrollBar.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartPointsSerie.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartLogarithmicAxis.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartLineSerie.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartLegend.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartGrid.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartGradient.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartGanttSerie.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartFont.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartDragLineCursor.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartDateTimeAxis.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCursor.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCtrl.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartAxis.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartAxisLabel.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartBarSerie.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCandlestickSerie.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCrossHairCursor.cpp">
+      <Filter>ChartCtrl\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckCombobox\CheckComboBox.cpp">
+      <Filter>CheckCombobox</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\Homography.cpp">
+      <Filter>打印\单应性变换</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\ImTransparent.cpp">
+      <Filter>打印\透传测试</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\PrinterDPIAlignment.cpp">
+      <Filter>打印\打印DPI对齐</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\ImScan.cpp">
+      <Filter>打印\图像扫描</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThForeground.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThMerging.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThReference.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThROI.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThPerspective.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThHomography.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThDPI.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigFile\md5.cpp">
+      <Filter>ConfigFile</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigFile\ConFileMgr.cpp">
+      <Filter>ConfigFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\DALSACapture.cpp">
+      <Filter>相机\大恒-DALSA</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\DALSACamera.cpp">
+      <Filter>相机\大恒-DALSA</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\DALSACameraHPD.cpp">
+      <Filter>相机\大恒-DALSA</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\XLPCamera.cpp">
+      <Filter>相机\度申</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\XLPCameraHPD.cpp">
+      <Filter>相机\度申</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\XLPCapture.cpp">
+      <Filter>相机\度申</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg\DALSADlg.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThAligning.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\Im2Mat.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ImPadding.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThSlope.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\CameraDPIAlignment.cpp">
+      <Filter>打印\相机DPI对齐</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\PrinterInit.cpp">
+      <Filter>打印\打印初始化</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\CImCtrl.cpp">
+      <Filter>ImControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\CImParam.cpp">
+      <Filter>ImControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\CImView.cpp">
+      <Filter>ImControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\DrawPng.cpp">
+      <Filter>ImControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImControl.cpp">
+      <Filter>ImControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImLayer.cpp">
+      <Filter>ImControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImPtr.cpp">
+      <Filter>ImControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImScrollbar.cpp">
+      <Filter>ImControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg\MatchTh.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ThMergingEx.cpp">
+      <Filter>校准\校准线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>相机</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImCenter.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImControl2.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImParam2.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImLayer2.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImLayers.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImRender.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImImage.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImView2.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImLayerInfo.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg\CameraParamDlg.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\AlignDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\CameraDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ForegroundDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\MergeDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ReferenceDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ROIDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\PrespectiveDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\HomographyDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\Merge2Dlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\DPIDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\ChartDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="ImControl\ImThCenter.cpp">
+      <Filter>ImControl2</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator\QEncodeDlg.cpp">
+      <Filter>校准</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\ImRotate.cpp">
+      <Filter>打印\图像扫描</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp\FeatureTh.cpp">
+      <Filter>模板制作</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg\FleeceDlg.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer\Fleece.cpp">
+      <Filter>打印\跳白</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchTestViewDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\FileUtil.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\IniUtil.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\JsonUtil.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\WinUtil.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp\TemplateManager.cpp">
+      <Filter>模板制作</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp\TemplateManagerDlg.cpp">
+      <Filter>模板制作</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\VideoImageStatic.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamSetDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StepDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp\MakeTemplateMaskDialog.cpp">
+      <Filter>模板制作</Filter>
+    </ClCompile>
+    <ClCompile Include="CScreenShotDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp\MakeTemplateDialog.cpp">
+      <Filter>模板制作</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\TiffUtil.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\OpenCvUtil.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp\MakeTemplateView.cpp">
+      <Filter>模板制作</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\StyleDialog.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\StyleButton.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VisionLocalization.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\VisionLocalization.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ChartCtrl\ChartPointsArray.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl\ChartSerieBase.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+    <None Include="res\cursor_rotate.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\rotating.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\VisionLocalization.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\app.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dlg.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dlg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\setting-btn.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\calibration-btn.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\collect-btn.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\loading-btn.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\model-btn.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\print-btn.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\save-btn.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\max.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\add.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\selcut.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\temp-btn.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\exit_foc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\exit_nor.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\max_focu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\max_norm.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\min_focu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\min_norm.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\res_focu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\res_norm.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
